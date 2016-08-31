@@ -50,7 +50,7 @@ namespace History_32_List
 			this.mainStatusStrip.Size = new System.Drawing.Size(52, 22);
 			this.mainStatusStrip.SizingGrip = false;
 			this.mainStatusStrip.TabIndex = 0;
-			this.mainStatusStrip.Text = "statusStrip1";
+			this.mainStatusStrip.Text = "";
 			// 
 			// mainToolStripStatusLabel
 			// 
@@ -58,7 +58,7 @@ namespace History_32_List
 			this.mainToolStripStatusLabel.Margin = new System.Windows.Forms.Padding(0);
 			this.mainToolStripStatusLabel.Name = "mainToolStripStatusLabel";
 			this.mainToolStripStatusLabel.Size = new System.Drawing.Size(16, 22);
-			this.mainToolStripStatusLabel.Text = "0";
+			this.mainToolStripStatusLabel.Text = "Count";
 			this.mainToolStripStatusLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
 			// historyListBox
