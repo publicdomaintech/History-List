@@ -95,7 +95,7 @@ namespace History_32_List
             else
             {
                 // Reset to default text
-                this.Text = "Count";
+                this.mainToolStripStatusLabel.Text = "Count";
             }
         }
 
