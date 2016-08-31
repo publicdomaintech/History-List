@@ -173,7 +173,7 @@ namespace History_32_List
             Clipboard.SetText(historyList);
 
             // Advice user
-            MessageBox.Show("History was copied to clipboard.", "Copy", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("History copied to clipboard.", "Copy", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         /// <summary>
@@ -214,7 +214,7 @@ namespace History_32_List
             }
 
             // Advice user
-            MessageBox.Show("History was saved to file:" + Environment.NewLine + saveFileDialog.FileName, "Save", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("History saved to file:" + Environment.NewLine + saveFileDialog.FileName, "Save", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
