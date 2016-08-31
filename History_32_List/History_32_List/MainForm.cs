@@ -59,7 +59,7 @@ namespace History_32_List
         /// <returns>>The processed input string.</returns>
         public string Input(string inputString, string betString)
         {
-            // Check if must undo
+            // Check if must process undo
             if (inputString == "-U")
             {
                 // Remove
@@ -162,8 +162,8 @@ namespace History_32_List
             // Add items in reversed order
             for (int h = this.historyListBox.Items.Count - 1; h > -1; h--)
             {
-                // Add current item
-                historyList += this.historyListBox.Items[h] + Environment.NewLine;
+                // Add current item + new line. Except for last spun.
+                historyList += this.historyListBox.Items[h] + (h > 0 ? Environment.NewLine : string.Empty);
             }
 
             // Trim last newline element
