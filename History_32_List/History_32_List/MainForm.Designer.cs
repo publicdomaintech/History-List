@@ -47,22 +47,22 @@ namespace History_32_List
 									this.mainToolStripStatusLabel});
 			this.mainStatusStrip.Location = new System.Drawing.Point(0, 358);
 			this.mainStatusStrip.Name = "mainStatusStrip";
-			this.mainStatusStrip.Size = new System.Drawing.Size(52, 22);
+			this.mainStatusStrip.Size = new System.Drawing.Size(62, 22);
 			this.mainStatusStrip.SizingGrip = false;
 			this.mainStatusStrip.TabIndex = 0;
-			this.mainStatusStrip.Text = "";
 			// 
 			// mainToolStripStatusLabel
 			// 
 			this.mainToolStripStatusLabel.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.mainToolStripStatusLabel.Margin = new System.Windows.Forms.Padding(0);
 			this.mainToolStripStatusLabel.Name = "mainToolStripStatusLabel";
-			this.mainToolStripStatusLabel.Size = new System.Drawing.Size(16, 22);
+			this.mainToolStripStatusLabel.Size = new System.Drawing.Size(46, 22);
 			this.mainToolStripStatusLabel.Text = "Count";
 			this.mainToolStripStatusLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
 			// historyListBox
 			// 
+			this.historyListBox.ContextMenuStrip = this.listBoxContextMenuStrip;
 			this.historyListBox.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.historyListBox.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
 			this.historyListBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -70,7 +70,7 @@ namespace History_32_List
 			this.historyListBox.IntegralHeight = false;
 			this.historyListBox.Location = new System.Drawing.Point(0, 0);
 			this.historyListBox.Name = "historyListBox";
-			this.historyListBox.Size = new System.Drawing.Size(52, 358);
+			this.historyListBox.Size = new System.Drawing.Size(62, 358);
 			this.historyListBox.TabIndex = 1;
 			this.historyListBox.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.OnHistoryListBoxDrawItem);
 			// 
@@ -104,7 +104,7 @@ namespace History_32_List
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(52, 380);
+			this.ClientSize = new System.Drawing.Size(62, 380);
 			this.ControlBox = false;
 			this.Controls.Add(this.historyListBox);
 			this.Controls.Add(this.mainStatusStrip);
